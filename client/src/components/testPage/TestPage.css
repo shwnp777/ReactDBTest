@@ -1,0 +1,32 @@
+.testUL {
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	max-width: 95%;
+	width: 300px;
+	padding: 15px;
+	border-radius: 5px;
+	margin: 20px;
+	-webkit-box-shadow: 5px 5px 10px 0px rgba(204, 204, 204, 1);
+	-moz-box-shadow: 5px 5px 10px 0px rgba(204, 204, 204, 1);
+	box-shadow: 5px 5px 10px 0px rgba(204, 204, 204, 1);
+}
+
+.photoBG {
+	height: 200px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	border-radius: 5px;
+	position: relative;
+}
+
+.cardTitle {
+	color: #fff;
+	padding: 5%;
+}
